@@ -1,0 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
+.nav-link{
+    transition: color 0.2s ease;
+}
+.nav-link:hover{
+    color: #d99a00;
+}
