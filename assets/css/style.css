@@ -33,3 +33,18 @@ html{
     border-radius: 1rem;
     font-size: 1.5rem;
 }
+.stat{
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 1.5rem;
+    padding: 2rem;
+}
+.stat b{
+    display: block;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #07172f;
+}
+.stat span{
+    color: #64748b;
+}
