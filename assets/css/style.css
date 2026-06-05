@@ -79,3 +79,39 @@ html{
     color: #d99a00;
     font-weight: 900;
 }
+.step{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background: white;
+    border: 1px solid #e2e8f0;;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.step b{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 999px;
+    background: #f6b800;
+    color: #07172f;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+}
+.label{
+    display: block;
+    font-weight: 700;
+    color: #334155;
+    margin-bottom: 0.5 rem;
+}
+.input{
+    width: 100%;
+    border: 1px solid #cbd5e1;
+    border-radius: 1rem;
+    padding: 0.9rem 1rem;
+    outline: none;
+}
+.input:focus{
+    border-color: #f6b800;
+    box-shadow: 0 0 0 4px rgba(246, 184, 0, 0.15);
+}
